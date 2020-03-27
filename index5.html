@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROMEE'S BLOG</title>
+    <link rel="stylesheet" href="index5.css" />
+    <link
+      rel="icon"
+      href="data:image/jpeg;base64,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"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="icon-logo">
+        <i class="fa fa-facebook-official"> </i>
+      </a>
+      <a href="#" class="icon-logo">
+        <i class="fa fa-instagram"></i>
+      </a>
+      <a href="#" class="icon-logo">
+        <i class="fa fa-snaochat"></i>
+      </a>
+      <a href="#" class="icon-logo">
+        <i class="fa fa-flicker"></i>
+      </a>
+      <a href="#" class="icon-logo">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="#" class="icon-logo">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="#" class="icon-logo">
+        <i class="fa fa-search"></i>
+      </a>
+    </nav>
+    <header class="header-container">
+      <h1>ROMEE BLOGLIFE</h1>
+      <h6>Welcome to the blog of <span class="span">ROMEE'S WORLD</span></h6>
+    </header>
+    <div class="banner-container">
+      <div class="banner-img">
+        <img
+          src="https://papers.co/wallpaper/papers.co-hn57-romee-strijd-beach-girl-model-36-3840x2400-4k-wallpaper.jpg"
+          alt="bannerpic"
+        />
+      </div>
+      <div class="text-container">
+        <h4>ROMEE'S</h4>
+        <h2><b>FASHION BLOG</b></h2>
+        <button>SUBSCRIBE</button>
+      </div>
+    </div>
+    <div class="body-wrapper">
+        <div class="left-section-container"> 
+            <section class="left-section">
+                <div class="left-content">
+                  <div class="left-title">
+                    <h1>Balmain Show</h1>
+                    <h2>Spring Fashion Show, <span id="span">March 2, 2019</span></h2>
+                  </div>
+                </div>
+                <div class="home-content-left">
+                  <img
+                    src="https://adamkatzsinding.com/wp-content/uploads/2017/09/Le-21eme-Adam-Katz-Sindin-Romee-Strijd-Paris-Fashion-Week-Spring-Summer-2018_AKS9493-1500x1000.jpg"
+                    alt="hats"
+                  />
+                  <p>
+                    <strong>More Hats! </strong>I am crazy about hats these days. Some
+                    text about this blog entry. Fashion fashion and mauris neque quam,
+                    fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id
+                    lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan
+                    tortor cursus at. Phasellus sed ultricies mi non congue ullam
+                    corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo
+                    condimentum, porta lectus vitae, ultricies congue gravida diam non
+                    fringilla.
+                  </p>
+                  <p>
+                    Sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.
+                  </p>
+                  <div class="left-content-button">
+                    <p class="like-button">
+                      <button>
+                        <i class="fas fa-thumbs-up" aria-hidden="true" ::before></i>Like
+                      </button>
+                    </p>
+                    <p class="reply-button">
+                      <button onclick="myFumnction">Replies <span>1</span></button>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="leftbody-replies">
+                    <div class="leftbody-reply-img">
+                      <img
+                        src="https://www.w3schools.com/w3images/avatar_smoke.jpg"
+                        alt="pic"
+                      />
+                    </div>
+                    <div class="leftbody-replies-text">
+                      <p>George <span>March 3, 2019, 6:32pm</span></p>
+                      <p class="reply">Great blog post!Following</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        
+              <section class="left-section">
+                <div class="left-content">
+                  <div class="left-title">
+                    <h1>Romee X Photoshoot</h1>
+                    <h2>Swimwear Lookbook, <span id="span">March 10, 2019</span></h2>
+                  </div>
+                </div>
+                <div class="home-content-left">
+                  <img
+                    src="https://cdn.yostagram.com/2019/05/romee-strijd-16.jpg"
+                    alt="hats"
+                  />
+                  <p><strong>Hats! </strong>The trend this summer is hats for men!</p>
+                  <p>
+                    Some text about this blog entry. Fashion fashion and mauris neque
+                    quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis
+                    nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac
+                    accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                    ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae
+                    justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                    non fringilla.
+                  </p>
+                  <div class="left-content-button">
+                    <p class="like-button">
+                      <button>
+                        <i class="fas fa-thumbs-up" aria-hidden="true" ::before></i>Like
+                      </button>
+                    </p>
+                    <p class="reply-button">
+                      <button onclick="myFumnction">Replies <span>2</span></button>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="leftbody-replies">
+                    <div class="leftbody-reply-img">
+                      <img
+                        src="https://www.w3schools.com/w3images/girl_train.jpg"
+                        alt="pic"
+                      />
+                    </div>
+                    <div class="leftbody-replies-text">
+                      <p>Angie <span>March 10, 2019, 5:17pm</span></p>
+                      <p class="reply">
+                        Love hats!
+                      </p>
+                    </div>
+                </div>
+                 <div class="leftbody-replies">
+                        <div class="leftbody-reply-img">
+                            <img src="https://www.w3schools.com/w3images/girl.jpg" alt="pic">
+                        </div>
+                        <div class="leftbody-replies-text">
+                          <p>Amber <span>March 11, 2019, 10:52pm</span></p>
+                          <p class="reply">
+                            Love your blog page! Simply the best! Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                          </p>
+                        </div>
+                </div>
+              </section>
+        
+              <section class="left-section">
+                <div class="left-content">
+                  <div class="left-title">
+                    <h1>IMG Models</h1>
+                    <h2>ES Magazine, <span id="span">March 21, 2019</span></h2>
+                  </div>
+                </div>
+                <div class="home-content-left">
+                  <img
+                    src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/05/22/16/sei-12644677.jpg?w968"
+                    alt="hats"
+                  />
+                  <p>
+                    <strong>More Hats! </strong>I am crazy about hats these days. Some
+                    text about this blog entry. Fashion fashion and mauris neque quam,
+                    fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id
+                    lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan
+                    tortor cursus at. Phasellus sed ultricies mi non congue ullam
+                    corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo
+                    condimentum, porta lectus vitae, ultricies congue gravida diam non
+                    fringilla.
+                  </p>
+                  <p>
+                    Sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.
+                  </p>
+                  <div class="left-content-button">
+                    <p class="like-button">
+                      <button>
+                        <i class="fas fa-thumbs-up" aria-hidden="true" ::before></i>Like
+                      </button>
+                    </p>
+                    <p class="reply-button">
+                      <button onclick="myFumnction">Replies <span>3</span></button>
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="leftbody-replies">
+                    <div class="leftbody-reply-img">
+                        <img src="https://www.w3schools.com/w3images/girl_mountain.jpg" alt="pic">
+                    </div>
+                    <div class="leftbody-replies-text">
+                      <p>Jane <span>March 27, 2019, 2:42pm</span></p>
+                      <p class="reply">That was a great runway show! Thanks for everything.</p>
+                    </div>
+                  </div>
+                  <div class="leftbody-replies">
+                    <div class="leftbody-reply-img">
+                        <img src="https://www.w3schools.com/w3images/boy.jpg" alt="pic">
+                    </div>
+                    <div class="leftbody-replies-text">
+                      <p>John <span>March 25, 2019, 6:31pm</span></p>
+                      <p class="reply">
+                        Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    </div>
+                  </div>
+                  <div class="leftbody-replies">
+                    <div class="leftbody-reply-img">
+                        <img src="https://www.w3schools.com/w3images/girl_hood.jpg" alt="pic">
+                    </div>
+                    <div class="leftbody-replies-text">
+                      <p>Anja <span>March 22, 2019, 9:28pm</span></p>
+                      <p class="reply">Can't wait for the runway to start!</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+        </div>
+      
+      <section class="right-section">
+          <div class="right-content">
+              <img src="https://media1.popsugar-assets.com/files/thumbor/_mTM6gvoZv5HTNzBqPR8DK_plbQ/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/10/22/755/n/1922729/8c4bcae45daf3752bdfc18.92118280_/i/romee-strijd-youtube-video-panic-attacks.jpg" alt="pic">
+              <div class="right-content-text">
+                  <h4>Romee Strijd</h4>
+                  <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
+                    interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+              </div>
+          </div>
+          <hr>
+          <div class="right-content rpart2">
+              <div class="content-right-title">
+                  <h4>Popular Posts</h4>
+              </div>
+              <ul class="right-content-post">
+                  <li>
+                      <div class="right-content-post-img">
+                        <img src="https://cdn.cliqueinc.com/posts/79805/oversized-denim-jackets-trend-79805-1499724011748-main.700x0c.jpg" 
+                        alt="pic">
+                     </div>
+                     <div class="right-content-post-text">
+                         <span>Demin</span>
+                         <p>Sed mattis nunc</p>
+                     </div>
+                </li>
+                  <li>
+                      <div class="right-content-post-img">
+                        <img src="https://i.guim.co.uk/img/media/d7b5ccffae98140da26dc38f878613c1f9660367/0_34_3712_5459/master/3712.jpg?width=700&quality=85&auto=format&fit=max&s=b54f11ffb0f6ad1da104023c9bccef63" 
+                        alt="pic">
+                     </div>
+                     <div class="right-content-post-text">
+                         <span>Sweaters</span>
+                         <p> Praes tinci sed</p>
+                     </div>
+                </li>
+                  <li>
+                      <div class="right-content-post-img">
+                        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="pic">
+                     </div>
+                     <div class="right-content-post-text">
+                         <span>Workshop</span>
+                         <p>Ultricies congue</p>
+                     </div>
+                </li>
+                  <li>
+                      <div class="right-content-post-img">
+                        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.hellogiggles.com%2Fuploads%2F2019%2F12%2F13085145%2Ffashion-trends.jpg&w=400&c=sc&poi=face&q=85" 
+                        alt="pic">
+                     </div>
+                     <div class="right-content-post-text">
+                         <span>Trends</span>
+                         <p>Lorem ipsum dipsum</p>
+                     </div>
+                </li>
+              </ul>
+          </div>
+          <div class="right-content rpart2">
+              <div class="content-right-title">
+                  <h4>Advertise</h4>
+              </div>
+              <div class="content-right-ad">
+                  <p>Your AD Here</p>
+              </div>
+          </div>
+          <hr>
+          <div class="right-content rpart2">
+            <div class="content-right-title">
+                <h4>Tags</h4>
+            </div>
+            <div>
+                <div class="content-right-tag-container">
+                    <span class="tag">Fashion</span>
+                    <span>New York</span>
+                    <span>London</span>
+                    <span>Hats</span>
+                    <span>Norway</span>
+                    <span>Sweaters</span>
+                    <span>Ideas</span>
+                    <span>Deals</span>
+                    <span>Accessories</span>
+                    <span>News</span>
+                    <span>Clothing</span>
+                    <span>Shopping</span>
+                    <span>Jeans</span>
+                    <span>Trends</span>
+                </div>
+            </div>
+          </div>
+          <div class="right-content rpart2">
+            <div class="content-right-title">
+                <h4>Inspiration</h4>
+            </div>
+            <div class="content-right-pic-container">
+                <div class="content-right-pic">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/1bR._Bwxm2g6h9CbvrtbaA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-02/b62a3d00-4826-11ea-bbff-d6efa32d4d91" alt="pic">
+                    <img src="https://cdn.cliqueinc.com/posts/284716/new-zara-items-284716-1578415878008-main.700x0c.jpg" alt="pic">
+                </div>
+                <div class="content-right-pic">
+                    <img src="https://i0.wp.com/blackpinkupdate.com/wp-content/uploads/2020/02/24-BLACKPINK-Lisa-PRADA-Fashion-Show-Milan-Fashion-Week-2020.jpeg?fit=1200%2C799&ssl=1" alt="pic">
+                    <img src="https://vfan-phinf.pstatic.net/20190306_132/1551863303998YASkc_JPEG/5b664c099a1cd-a377d9e6b0576569d91305696ec952f3_-_Copy.jpg?type=e1280" alt="pic">
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="right-content rpart2">
+            <div class="content-right-title">
+                <h4>Follow Me</h4>
+            </div>
+            <div class="content-right-follow">
+                <i class="fab fa-facebook-square" aria-hidden="true" ::before></i>
+                <i class="fab fa-instagram" aria-hidden="true" ::before></i>
+                <i class="fab fa-snapchat" aria-hidden="true" ::before></i>
+                <i class="fab fa-pinterest-p" aria-hidden="true" ::before></i>
+                <i class="fab fa-twitter" aria-hidden="true" ::before></i>
+                <i class="fab fa-linkedin-in" aria-hidden="true" ::before></i>
+            </div>
+          </div>
+          <hr>
+          <div class="right-content rpart2">
+            <div class="content-right-title">
+                <h4>Subscribe</h4>
+            </div>
+            <div class="content-right-subscribe-container">
+                <p>Enter your e-mail below and get notified on the latest blog posts</p>
+                <p>
+                    <input type="text" placeholder="Enter e-mail">
+                </p>
+                <p>
+                    <button type="button">Subscribe</button>
+                </p>
+            </div>
+          </div>
+      </section>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <a class="footer-button" href="#">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>To the top
+            </a>
+            <p class="footer-link">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3.css
+            </a>
+
+            </p>
+        </div>
+    </footer>
+
+  </body>
+</html>
